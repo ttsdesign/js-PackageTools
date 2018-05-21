@@ -1,0 +1,40 @@
+{
+	"name": "org.tts.js-PackageTools",
+	"version": "0.0.1",
+	"title": "Package build tools",
+	"description": "Tools such as make and docs generators",
+	"license": "MIT",
+	"author": {
+		"name": "TTS Design",
+		"email": "ttsdesign@gmail.com",
+		"url": "https://github.com/ttsdesign"
+	},
+	"homepage": "https://github.com/ttsdesign/js-PackageTools",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ttsdesign/js-PackageTools.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ttsdesign/js-PackageTools/issues"
+	},
+	"keywords": [
+		"TTS Design",
+		"Package Tools",
+		"Javascript"
+	],
+	"dependencies": {
+		"commander": "2.15.1"
+	},
+	"devDependencies": {
+		"grunt": "^1.0.2",
+		"jshint": "^2.9.5",
+		"uglify-js": "3.3.24"
+	},
+	"main": "index.js",
+	"directories": {
+		"bin": "./bin"
+	},
+	"bin": {
+		"PkgTools": "bin/PkgTools"
+	}
+}
